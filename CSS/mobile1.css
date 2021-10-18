@@ -1,0 +1,30 @@
+@media screen and (max-width: 1400px) {
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    /* Navigation Section */
+    .navigation {
+        flex-direction: column;
+        margin: 20px;
+        height: 15vh;
+    }
+    .nav-left {
+        flex-direction: column;
+        text-align: center;
+    }
+    /* Content Section */
+    .content {
+        height: 40vh;
+    }
+    .content-right {
+        display: none;
+    }
+}

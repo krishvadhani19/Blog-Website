@@ -1,0 +1,45 @@
+/* Contact Content Section */
+
+.contact-content {
+    height: 65rem;
+    /* background-color: rgb(253, 207, 207); */
+    /* border: 5rem solid darkblue; */
+    display: flex;
+    font-family: var(--font1);
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.contact-content::before {
+    content: '';
+    position: absolute;
+    background: url('../blog/3.jpg');
+    width: inherit;
+    height: inherit;
+    opacity: 0.3;
+    z-index: -1;
+    border-radius: 2rem;
+}
+
+.contact-content h2 {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.contact-form {
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-box input,
+textarea {
+    width: 70rem;
+    padding: .3rem 1rem;
+    border: .3rem solid var(--main-bg-color);
+    margin: 1rem 0rem;
+    border-radius: .7rem;
+    font-family: var(--font1);
+    font-size: 2rem;
+}
